@@ -604,3 +604,47 @@ img {
 .portfolio-links:focus .portfolio-card-text {
   transform: translateY(0%);
 }
+.footer-form {
+  margin-left: 80px;
+}
+.footer-email-input {
+  color: var(--white, #fff);
+  border-radius: 4px;
+  border: 1px solid var(--white, #fff);
+  width: 264px;
+  height: 40px;
+  background-color: var(--text-color);
+}
+.footer-sub-btn {
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+input::placeholder {
+  color: var(--white, #fff);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.48px;
+  padding: 8px 212px 8px 16px;
+}
+.footer-btn-text {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+.footer-submit-icon {
+  fill: #ffffff;
+}
