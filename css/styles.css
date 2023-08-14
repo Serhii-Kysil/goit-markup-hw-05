@@ -726,3 +726,6 @@ img {
 .comments-area:focus {
   border-color: #4d5ae5;
 }
+.modal-textarea {
+  margin-bottom: 16px;
+}
