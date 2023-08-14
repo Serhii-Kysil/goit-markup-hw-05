@@ -753,5 +753,9 @@ img {
   fill: transparent;
 }
 .click-icon {
+}
+.input-check:checked + .privacy-span {
   background-color: var(--icon-background);
+  border: none;
+  fill: var(--footer-text-color);
 }
