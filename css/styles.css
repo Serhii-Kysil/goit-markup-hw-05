@@ -499,14 +499,17 @@ img {
 .footer-logo-desc {
   margin-right: 120px;
 }
-
+.sub-form {
+  display: flex;
+  gap: 24px;
+}
 .footer-social-media {
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-white-color);
-  margin-bottom: 16px;
+  color: #ffffff;
 }
 .social-footer {
   gap: 16px;
@@ -605,35 +608,32 @@ img {
   transform: translateY(0%);
 }
 .footer-form {
-  margin-left: 80px;
+	margin-left:80px;
 }
 .footer-email-input {
-  color: var(--white, #fff);
-  border-radius: 4px;
-  border: 1px solid var(--white, #fff);
   width: 264px;
   height: 40px;
-  background-color: var(--text-color);
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.footer-email-input::placeholder {
+  color: #ffffff;
 }
 .footer-sub-btn {
-  display: inline-flex;
-  padding: 8px 24px;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  border-radius: 4px;
-  background-color: #4d5ae5;
-  cursor: pointer;
+  min-width: 165px;
+  height: 40px;
+  display: flex;
 }
 input::placeholder {
-  color: var(--white, #fff);
-  font-family: Roboto;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.48px;
-  padding: 8px 212px 8px 16px;
+  color #ffffff;
 }
 .footer-btn-text {
   color: #fff;
