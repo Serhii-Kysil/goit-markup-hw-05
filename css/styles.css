@@ -752,9 +752,8 @@ img {
   justify-content: center;
   fill: transparent;
 }
-.click-icon {
-}
-.input-check:checked + .privacy-span {
+
+.input-check:checked + .privacy-label > .privacy-span {
   background-color: var(--icon-background);
   border: none;
   fill: var(--footer-text-color);
