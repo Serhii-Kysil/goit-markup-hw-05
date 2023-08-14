@@ -705,7 +705,7 @@ img {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-name-input:focus + .modal-icons {
+.modal-input:focus + .modal-icons {
   fill: #4d5ae5;
 }
 .comments-area {
